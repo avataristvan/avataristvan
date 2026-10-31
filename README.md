@@ -1,14 +1,26 @@
 ### Hi, I'm Istvan
 
-Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), Scrum, team leadership. Since 2025 I work hands-on on how humans and AI agents work together, and I treat that as an architecture and leadership question, not a side project.
+Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), Scrum, leading teams. Lately I work on one question: **how do humans and AI agents do reliable work together?** I treat that as an architecture and leadership problem, not as a tooling problem.
 
-**What I'm building**
+#### Problems I work on
 
-- **[Fabrica · ai-mem](https://github.com/avataristvan/fabrica)** — a practice for letting AI agents inherit experience across sessions: decision records with their reasons, superseded instead of deleted, and a librarian agent that judges instead of scoring. Comes with an honest report of what I measured, including what didn't work.
-- **[AIDE](https://github.com/avataristvan/a-i-d-e)** — a CLI that gives agents deterministic, test-verified refactoring toward Clean Architecture and capability-centric DDD.
-- **[kitchen-chat-mcp](https://github.com/avataristvan/kitchen-chat-mcp)** — lets separate Claude Code sessions talk to each other.
-- **[sm-t585-mainline](https://github.com/avataristvan/sm-t585-mainline)** — mainline Linux bring-up for the Samsung Galaxy Tab A 10.1 (Exynos 7870): kernel, device tree, U-Boot.
+**AI agents forget why things are the way they are.** Every session starts from zero, so agents repeat old mistakes and undo decisions they never saw.
+→ [**Fabrica**](https://github.com/avataristvan/fabrica): a practice for letting agents inherit experience across sessions — decisions recorded with their reasons, superseded instead of deleted, read by a librarian agent that judges instead of scoring. *ai-mem* is its Claude Code plugin. Fabrica was built with its own practice — [here is how](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/how-fabrica-built-itself.md) — and it ships with [what I measured](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/what-we-measured.md), including what did not work.
 
-**How I work**
+**Agents refactor by search-and-replace.** Moving a symbol across a codebase with grep and edit breaks imports in ways nobody notices until later.
+→ [**AIDE**](https://github.com/avataristvan/a-i-d-e): a CLI that gives agents deterministic, test-verified refactoring toward Clean Architecture and capability-centric DDD, with rollback.
 
-Map the process chain first — which step, which data, which system — then decide where to decouple and where AI actually helps. I lead agents the way I lead people: clear scope, honest uncertainty, decisions written down with their reasons.
+**Parallel agent sessions can't talk to each other.** Work splits into several sessions, and context gets lost between them.
+→ [**kitchen-chat-mcp**](https://github.com/avataristvan/kitchen-chat-mcp): local, serverless messaging between Claude Code sessions — rooms, questions, answers.
+
+**Good hardware gets abandoned by its vendor.** A 2016 tablet with a working screen and battery is e-waste only because its software stopped.
+→ [**sm-t585-mainline**](https://github.com/avataristvan/sm-t585-mainline): mainline Linux bring-up for the Samsung Galaxy Tab A 10.1 (Exynos 7870) — kernel, device tree, U-Boot, postmarketOS.
+
+#### How I work
+
+- **Understand before building.** Scope, terms and mode first; then deliver in small steps that can each be verified.
+- **Decisions keep their reasons.** Written down with a date, replaced by a newer decision rather than deleted.
+- **Measure, and publish the negative results too.**
+- **Enforce with mechanisms, not with discipline.** Hooks, tests and checks over "please remember to".
+- **The same architecture in every stack.** Domain, application, infrastructure, UI — in Python tools, Android apps and web apps alike.
+- **Lead agents the way I lead people:** clear scope, honest uncertainty, room to say "I don't know".
