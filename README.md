@@ -25,6 +25,7 @@ Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), S
 #### Further experiments
 
 - [**fp6sense**](https://github.com/avataristvan/fp6sense) — what can a phone's sensors tell you beyond their intended purpose? Heartbeat from the accelerometer (seismocardiography), motion sensors as a vibration microphone, a pseudo-infrared view from camera RAW data, tested on a Fairphone 6.
+- [**WokTuna**](https://github.com/avataristvan/woktuna) — tuners show a handpan's frequencies, not where to hammer. WokTuna detects several partials live from the microphone and turns them into guidance: where on the tone field and along which axis. [Try it in the browser](https://avataristvan.github.io/woktuna/).
 
 #### How I work
 
