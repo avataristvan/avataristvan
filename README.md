@@ -1,11 +1,13 @@
 ### Hi, I'm Istvan
 
-Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), Scrum, leading teams. Lately I work on one question: **how do humans and AI agents do reliable work together?** I treat that as an architecture and leadership problem, not as a tooling problem.
+Engineering lead and architect, 18 years in — backend (Node.js/TypeScript), team lead, Scrum Master, capability-centric DDD, CI/CD.
+
+The problems I care about show up in human teams and in agent teams alike: unclear mandates, decisions that lose their reasons, big bangs instead of small verifiable steps. Lately I work on one question: **how do humans and AI agents do reliable work together?** I treat that as an architecture and leadership problem, not as a tooling problem.
 
 #### Problems I work on
 
 **AI agents forget why things are the way they are.** Every session starts from zero, so agents repeat old mistakes and undo decisions they never saw.
-→ [**Fabrica**](https://github.com/avataristvan/fabrica): a practice for letting agents inherit experience across sessions — decisions recorded with their reasons, superseded instead of deleted, read by a librarian agent that judges instead of scoring. *ai-mem* is its Claude Code plugin. Fabrica was built with its own practice — [here is how](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/how-fabrica-built-itself.md) — and it ships with [what I measured](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/what-we-measured.md), including what did not work.
+→ [**Fabrica**](https://github.com/avataristvan/fabrica): an agile practice for letting agents inherit experience across sessions — decisions recorded with their reasons, superseded instead of deleted, read by a librarian agent that judges instead of scoring. *ai-mem* is its Claude Code plugin. Fabrica was built with its own practice — [here is how](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/how-fabrica-built-itself.md) — and it ships with [what I measured](https://github.com/avataristvan/fabrica/blob/main/docs/explanation/what-we-measured.md), including what did not work.
 
 **One agent ships a big task as one big bang.** No plan anyone checked, no review, nothing learned for next time.
 → [**dev-team**](https://github.com/avataristvan/dev-team): an agent team for Claude Code — plan in small verifiable chunks, review the plan, one coder per chunk that reviews its own work, tests enforced by a hook. Built on Fabrica: every chunk starts from the recorded decisions, and what the team learns goes back into the record.
@@ -35,3 +37,7 @@ Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), S
 - **Enforce with mechanisms, not with discipline.** Hooks, tests and checks over "please remember to".
 - **The same architecture in every stack.** Domain, application, infrastructure, UI — in Python tools, Android apps and web apps alike.
 - **Lead agents the way I lead people:** clear scope, honest uncertainty, room to say "I don't know".
+
+#### Contact
+
+[LinkedIn](https://www.linkedin.com/in/istvan-lovas-2387b3113/)
