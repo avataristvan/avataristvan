@@ -16,6 +16,9 @@ Software engineer and team lead, 18 years in — backend (Node.js/TypeScript), S
 **Good hardware gets abandoned by its vendor.** A 2016 tablet with a working screen and battery is e-waste only because its software stopped.
 → [**sm-t585-mainline**](https://github.com/avataristvan/sm-t585-mainline): mainline Linux bring-up for the Samsung Galaxy Tab A 10.1 (Exynos 7870) — kernel, device tree, U-Boot, postmarketOS.
 
+**Phones carry a dozen sensors, and apps show almost none of it.** What can you read from them if you use them beyond their intended purpose?
+→ [**fp6sense**](https://github.com/avataristvan/fp6sense): an experiment on a Fairphone 6 — heartbeat from the accelerometer (seismocardiography), motion sensors as a vibration microphone, a pseudo-infrared view from camera RAW data, plus live dashboards for GNSS, motion, environment and magnetometer.
+
 #### How I work
 
 - **Understand before building.** Scope, terms and mode first; then deliver in small steps that can each be verified.
