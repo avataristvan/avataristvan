@@ -1,6 +1,6 @@
 ### Hi, I'm Istvan
 
-Engineering lead and architect, 18 years in — backend (Node.js/TypeScript), team lead, Scrum Master, capability-centric DDD, CI/CD.
+Engineering lead and architect. 18 years in software development — backend (Node.js/TypeScript), team lead, Scrum Master, capability-centric DDD, CI/CD.
 
 The problems I care about show up in human teams and in agent teams alike: unclear mandates, decisions that lose their reasons, big bangs instead of small verifiable steps. Lately I work on one question: **how do humans and AI agents do reliable work together?** I treat that as an architecture and leadership problem, not as a tooling problem.
 
